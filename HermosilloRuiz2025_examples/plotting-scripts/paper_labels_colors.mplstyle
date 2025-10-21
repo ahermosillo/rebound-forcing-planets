@@ -1,0 +1,62 @@
+### FIGURE
+figure.facecolor: white
+figure.dpi: 300
+figure.titlesize: 12
+figure.titleweight: normal
+
+### LINES
+lines.linewidth: 1.5
+
+### PATCHES
+patch.facecolor: 0072B2
+
+### LEGEND
+legend.fontsize: 11
+legend.framealpha: 1
+legend.frameon: False
+
+# Tick properties
+# x-axis
+xtick.top: True
+xtick.direction: in
+xtick.major.size: 6
+xtick.major.width: 1.2
+xtick.minor.size: 4
+xtick.minor.width: 1.2
+xtick.labelsize:  11
+xtick.major.pad:  6
+
+# y-axis
+ytick.right: True
+ytick.direction: in
+ytick.major.size: 6
+ytick.major.width: 1.2
+ytick.minor.size: 4
+ytick.minor.width: 1.2
+ytick.labelsize:  11
+ytick.major.pad:   3
+
+
+### FONTS
+font.family: sans-serif
+# font.sans-serif: Avenir, 'Avenir Next LT Pro', Arial, Helvetica, sans-serif
+font.weight: normal
+font.size: 12
+
+text.usetex: True
+mathtext.fontset: stix
+
+### AXES
+axes.grid: False
+axes.linewidth: 1.2
+#axes.labelpad: 10
+#axes.titlepad: 10
+axes.facecolor: white
+axes.titlesize: 12
+axes.titleweight: normal
+axes.labelsize: 12
+axes.labelweight: normal
+# axes.spines.top: True
+# axes.spines.right: True
+# axes.prop_cycle: cycler(color=['335471','69a2b0','5e4085','58804d','a1c084','dd4053','ffa5a5','a885c9','a9714b','49111c'])
+axes.prop_cycle: cycler(color=['EE6C4D','C20D0A','98C1D9','354E6E','D7AB33','dd4053','ffa5a5','a885c9','a9714b','49111c'])
