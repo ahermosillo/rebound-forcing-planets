@@ -1,0 +1,29 @@
+Input files:
+
+integration-parameters.txt
+	must contain:
+		timestep
+		max integration time 
+		output frequency to simarchive
+	(all in years)
+
+planet-ic.txt (needed if planet-ic.bin doesn't exist)
+	must contain 4 lines, 1 each for Jupiter, Saturn, Uranus, & Neptune
+	the following should appear separated only by spaces in the units indicated
+		mass (solar masses), radius (au), a (au), eccentricity, 
+		inclination (deg), longitude of ascending node (deg), 
+		argument of perihelion (deg), mean anomaly (deg)
+
+tp-parameters.txt (needed if planet-ic.bin does exist)
+	must contain:
+		number of test particles (integer)
+		minimum semimajor axis
+		maximum semimajor axis
+		eccentricity distribution width (rayleigh)
+		inclination distribution width in radians (rayleigh)
+
+planet-migration-parameters.txt (always needed)
+	must contain:
+		first line: 0. 0. 0.
+		then tau_a (years), delta a (au), and tau_e (years)
+		for all 4 planets
