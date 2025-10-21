@@ -1,12 +1,14 @@
 explanation for input files
 
+units for input files: au, yr, deg
+units in code: au, 2pi*yr, rad
+
 ====== integration-parameters.txt =====
 integration timestep, total integration time, output timestep, trial sim (0 or 1), number of planets
 
 trial sim 0 = test particles will be added (see tp-parameters.txt)
 trial sim 1 = no test particles added, just testing planet behavior
 
-time units here is years.
 in the code, the time is converted to yr 2 pi units
 
 ====== planet-ic.txt =======
